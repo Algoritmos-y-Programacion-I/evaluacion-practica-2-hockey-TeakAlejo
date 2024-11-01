@@ -47,10 +47,10 @@ public class Executable {
 
 			switch (option) {
 					case 1:
-
+                        controladora.fixture();
 						break;
 					case 2:
-
+                        controladora.informacionPrecargada();
 						break;
 					case 3:
 
@@ -83,4 +83,7 @@ public class Executable {
 
     }
 
+    public void informacionPrecargada(){
+        controladora.informacionPrecargada();    
+    }
 }

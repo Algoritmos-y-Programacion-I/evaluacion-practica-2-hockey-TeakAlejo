@@ -17,4 +17,9 @@ public class Equipo {
     public JugadorHockey[] getJugadores() {
         return jugadores;
     }
+
+    public Equipo(String nombreEquipo){
+
+        this.nombreEquipo = nombreEquipo;
+    }
 }
