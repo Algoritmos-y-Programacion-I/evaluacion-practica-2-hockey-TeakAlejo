@@ -21,6 +21,7 @@ public class Controller {
      */
     public Controller() {
         memoriaEquipos = new Equipo[2];
+        memoriaArbitros = new Arbitro[4];
         arbitros = new Arbitro[4];
     }
 
